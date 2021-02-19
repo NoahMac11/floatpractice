@@ -1,0 +1,138 @@
+/*reset selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Regular body styles*/
+body{
+    font-family: sans-serif, Arial;
+    font-size: 100%;
+    max-width: 600px;
+	margin: 0 auto;
+    border:black solid 5px;
+    background-image: linear-gradient(to right, black 0%, rgb(175, 87, 40) 50%, orange 100%);
+}
+
+/*Header styles*/
+body header{
+    margin: 2em;
+    background-color: lightgray;
+    border: black solid 5px;
+    padding: 0.5em;
+}
+
+body header img{
+    float: left;
+}
+
+body header h1{
+    color: black;
+    text-align: center;
+}
+
+/*Main styles*/
+body main{
+    border-top: black solid 5px;
+    border-bottom: black solid 5px;
+    padding: 0.5em;
+    background-color: white;
+}
+/*Blurb 1*/
+body main .blurb-1{
+    padding: 1em;
+    border-bottom: black solid 2px;
+}
+
+body main .blurb-1 img{
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+}
+
+body main .blurb-1 p{
+    text-align: left;
+}
+/*Blurb 2*/
+body main .blurb-2{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: black solid 2px;
+    padding-bottom: 2em;
+}
+
+body main .blurb-2 img{
+    float: right;
+}
+/*Blurb 3*/
+body main .blurb-3{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: black solid 2px;
+    padding-bottom: 1em;
+}
+
+body main .blurb-3 img{
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+}
+
+body main .blurb-3 p{
+    text-align: left;
+    padding-bottom: 1em;
+}
+/*Blurb 4*/
+body main .blurb-4{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: black solid 2px;
+    padding-bottom: 3em;
+}
+
+body main .blurb-4 img{
+    float: right;
+}
+/*Blurb 5*/
+body main .blurb-5{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: black solid 2px;
+    padding-bottom: 2em;
+}
+
+body main .blurb-5 img{
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+}
+
+body main .blurb-5 p{
+    text-align: left;
+    padding-bottom: 1em;
+}
+/*Blurb 6*/
+body main .blurb-6{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: black solid 2px;
+    padding-bottom: 3em;
+}
+
+body main .blurb-6 img{
+    float: right;
+}
+
+/*Footer styles*/
+body footer{
+    font-size: 80%;
+    text-align: center;
+    background-color: rgb(175, 87, 40);
+    color: black;
+    padding: 1em;
+}
